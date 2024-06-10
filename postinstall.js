@@ -57,5 +57,5 @@ fs.writeFile(colorFilePath, colorTemplate, "utf8", function (err) {
   console.log(`Successfully created color file at ${colorFilePath}`);
   console.log(`Для назначения callback-ов для кнопок push-уведомления
      обновите свой файл MainActivity по аналогии
-     с android/src/main/java/com/supersami/foregroundservice/MainActivity.java`);
+     с node_modules/rn-foreground-service/android/src/main/java/com/supersami/foregroundservice/MainActivity.java`);
 });
